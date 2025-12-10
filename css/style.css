@@ -5,3 +5,20 @@
 #playstation-plus {
   background-color: rgb(190 188 187);
 }
+
+#spotlight {
+  background: url("/img/jumbo-bg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  padding-top: 25%;
+}
+
+#it-takes-two {
+  background: url("/img/it-takes-two-hero-banner-desktop.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
