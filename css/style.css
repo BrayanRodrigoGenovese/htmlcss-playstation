@@ -22,3 +22,7 @@
   background-size: cover;
   color: white;
 }
+
+header > div:first-of-type > img {
+  height: 10px;
+}
