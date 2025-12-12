@@ -23,8 +23,44 @@
   color: white;
 }
 
+#sie-logo {
+  width: 200px;
+}
+
+#playstation-4 > div > div > .row > div > button {
+  align-self: flex-end;
+}
+
+#social-media > .row > img {
+  height: 125px;
+  width: auto;
+}
+
+.navbar > div > div:last-of-type > img {
+  height: 25px;
+}
+
+.country-region-selector {
+  display: flex;
+}
+.country-region-selector > .logo {
+  width: 20px;
+  margin: 5px;
+}
+
+.country-region-selector > p {
+  margin: 0;
+}
+
+header > div:first-of-type {
+  height: 30px;
+  align-content: center;
+  text-align: right;
+}
+
 header > div:first-of-type > img {
-  height: 10px;
+  height: 12px;
+  margin-right: 6px;
 }
 
 footer {

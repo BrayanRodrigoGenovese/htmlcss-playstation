@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="it">
 
 <head>
     <meta charset="UTF-8">
@@ -22,7 +22,7 @@
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#">
-                    <img src="./img/play_logo.svg" alt="">
+                    <img src="./img/play_logo.svg" alt="PlayStation Logo">
                 </a>
 
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -71,6 +71,14 @@
                         </li>
                     </ul>
                 </div>
+                <div class="d-none d-lg-flex flex-row align-items-center gap-3">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        My PlayStation
+                    </a>
+                    <button class="btn btn-dark rounded-pill px-3" type="button">Accedi</button>
+                    <img src="./img/lens.svg" alt="Search Lens">
+                </div>
             </div>
         </nav>
     </header>
@@ -83,7 +91,7 @@
                         <!-- description -->
                         <div class="col-sm-12 col-lg-4">
                             <img src="./img/returnal-hero-banner-logo.png" class="col-8" alt="">
-                            <h2>Rompi il cerchio</h2>
+                            <h2 class="py-3">Rompi il cerchio</h2>
                             <p>
                                 Rialzati dopo ogni sconfitta e affronta una nuova sfida con ogni rinascita in questo
                                 esplosivo
@@ -97,7 +105,7 @@
         </div>
 
         <div class="container">
-            <div class="p-5 row">
+            <div class="p-5 row g-3">
                 <div class="col-6 col-sm-4 col-lg-2">
                     <img src="./img/returnal-listing-thumb-01-ps5.jpg" class="w-100 rounded-4" alt="">
                 </div>
@@ -125,7 +133,7 @@
             <div class="container">
                 <div class="p-5">
                     <div class="text-center">
-                        <h3 class="text-primary">PLAY HAS NO LIMITS</h3>
+                        <h3 class="text-primary fs-6">PLAY HAS NO LIMITS</h3>
                         <h2>Ecco la PlayStation 5</h2>
                         <p class="text-body-secondary">tuffati in nuove possibilità di gioco completamente inaspettate
                         </p>
@@ -160,7 +168,7 @@
                     <!-- description -->
                     <div class="col-sm-12 col-lg-4">
                         <img src="./img/it-takes-two-logo.png" class="col-8" alt="">
-                        <h2>Un'avventura cooperativa selvaggia ti attende</h2>
+                        <h2 class="py-3">Un'avventura cooperativa selvaggia ti attende</h2>
                         <p>
                             Trova un amico e partite insieme per l'avventura più folle delle vostre vite in It Takes
                             Two, un
@@ -247,7 +255,7 @@
                     <div class="text-center">
                         <h2>Esplora PlayStation 4</h2>
                         <p class="text-body-secondary" class="text-body-secondary">
-                            Giochi incredibili e intrattenimento senza fine.
+                            Giochi incredibili e intrattenimento senza fine.<br>
                             Non c'è mai stato un momento migliore per giocare sulla tua PS4.
                         </p>
                     </div>
@@ -338,62 +346,83 @@
         </div>
 
         <!-- SOCIAL MEDIA -->
-        <div id="social-media">
-            <div class="container">
-                <div class="text-center">Seguici sui social media</div>
-                <div class="row justify-content-center">
-                    <img src="./img/twitter.jpg" class="col-1" alt="Twitter Logo">
-                    <img src="./img/facebook.jpg" class="col-1" alt="Facebook Logo">
-                    <img src="./img/instagram.jpg" class="col-1" alt="Instagram Logo">
-                    <img src="./img/youtube.png" class="col-1" alt="Youtube Logo">
-                </div>
+        <div class="container p-5" id="social-media">
+            <div class="text-center fs-3 pb-5">Seguici sui social media</div>
+            <div class="row justify-content-center g-3">
+                <img src="./img/twitter.jpg" class="col-6 col-md-3" alt="Twitter Logo">
+                <img src="./img/facebook.jpg" class="col-6 col-md-3" alt="Facebook Logo">
+                <img src="./img/instagram.jpg" class="col-6 col-md-3" alt="Instagram Logo">
+                <img src="./img/youtube.png" class="col-6 col-md-3" alt="Youtube Logo">
             </div>
         </div>
     </main>
-    <footer>
+    <footer class="py-5 border-top">
+
         <div class="container">
-            <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 my-5 border-top">
-                <div class="col mb-3"> <a href="/"
+            <div class="row g-3">
+                <div class="col-12 col-lg-6"> <a href="/"
                         class="d-flex align-items-center mb-3 link-body-emphasis text-decoration-none"
-                        aria-label="Bootstrap"> <svg class="bi me-2" width="40" height="32" aria-hidden="true">
-                            <use xlink:href="#bootstrap"></use>
-                        </svg> </a>
-                    <p class="text-light">© 2025</p>
+                        aria-label="Bootstrap">
+                        <img src="./img/ps-footer.svg" alt="">
+                    </a>
+                    <div class="country-region-selector py-3 d-flex align-items-center">
+                        <div class="logo">
+                            <img src="./img/language-globe.svg" alt="Globe Logo">
+                        </div>
+                        <p class="lh-1"">Country / Region: Italy</p>
+                    </div>
                 </div>
-                <div class="col mb-3"></div>
-                <div class="col mb-3">
-                    <h5>Section</h5>
-                    <ul class="nav flex-column">
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Home</a></li>
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Features</a></li>
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Pricing</a></li>
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">FAQs</a></li>
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">About</a></li>
-                    </ul>
+                <div class=" col-12 col-md-4 col-lg-2">
+                        <h5>Section</h5>
+                        <ul class="nav flex-column">
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Home</a></li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Features</a></li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Pricing</a></li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">FAQs</a></li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">About</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-12 col-md-4 col-lg-2">
+                        <h5>Section</h5>
+                        <ul class="nav flex-column">
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Home</a></li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Features</a></li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Pricing</a></li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">FAQs</a></li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">About</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-12 col-md-4 col-lg-2">
+                        <h5>Section</h5>
+                        <ul class="nav flex-column">
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Home</a></li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Features</a></li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Pricing</a></li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">FAQs</a></li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">About</a></li>
+                        </ul>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 col-lg-6 pt-5">
+                            <div id="sie-logo">
+                                <img src="./img/sie-logo.svg" alt="SIE Logo">
+                            </div>
+                            <p>Website ©2021 Sony Interactive Entertainment Europe Limited. Tutti i contenuti, nomi dei
+                                giochi,
+                                nomi commerciali e/o di abbigliamento, marchi registrati, grafica e immagini associati
+                                sono
+                                marchi registrati e/o materiale protetto da copyright dei rispettivi proprietari. Tutti
+                                i
+                                diritti riservati. <a href="">Maggiori info</a> </p>
+                        </div>
+                    </div>
                 </div>
-                <div class="col mb-3">
-                    <h5>Section</h5>
-                    <ul class="nav flex-column">
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Home</a></li>
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Features</a></li>
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Pricing</a></li>
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">FAQs</a></li>
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">About</a></li>
-                    </ul>
-                </div>
-                <div class="col mb-3">
-                    <h5>Section</h5>
-                    <ul class="nav flex-column">
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Home</a></li>
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Features</a></li>
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Pricing</a></li>
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">FAQs</a></li>
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">About</a></li>
-                    </ul>
-                </div>
-            </footer>
-        </div>
+            </div>
     </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
